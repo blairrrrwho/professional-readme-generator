@@ -59,7 +59,7 @@ function generateMarkdown(data) {
     ${data.Tests}
   
   ## Questions
-    If you liked this project feel free to check out my other projects at ${data.Github}
+    If you liked this project feel free to check out my other projects at ${data.GitHub}
     If you have any questions feel free to email me at  ${data.Email}
 `;
 }
