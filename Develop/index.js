@@ -54,7 +54,7 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'User Knowledge',
+        name: 'UserKnowledge',
         message: 'What does the user need to know in order to use your repo?',
       },
       {
