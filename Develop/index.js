@@ -75,7 +75,7 @@ const init = (questions) => {
         console.log(response);
         const mdPageContent = generateMarkdown(response);
         console.log(mdPageContent);
-        writeToFile ('myREADME1.md', mdPageContent)
+        writeToFile ('myREADME.md', mdPageContent)
     })
 };
 
