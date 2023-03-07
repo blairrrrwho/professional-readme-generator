@@ -17,7 +17,6 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Usage](#usage)
 - [Demo](#demo)
 - [Screenshots of App](#screenhots-of-app)
-- [Credits](#credits)
 - [License](#license)
 - [Contribution](#how-to-contribute)
 - [Tests](#tests)
@@ -33,7 +32,7 @@ Your README file should generate and be given the title: "myREADME.md"
 
 ## Usage (Instructions/How-To Use)
 
-This application will utilize node.js to generate a personalized README for your project, based off of your input. Users are to run node index from their terminal within the repo root folder. Once the command is ran and the input is selected, then the user must answer the proceeding questions. If all is well, the application will generated your very own README. 
+This application will utilize node.js to generate a personalized README for your project, based off of your input. Users are to run node index from their terminal within the repo root folder. Once the command is ran and the input is selected, then the user must answer the proceeding questions. If all is well, the application will generated your very own README for specific repos. 
 
 ## Demo
 Live URL: <a href="deployed link">Deployment Link</a>
@@ -46,15 +45,6 @@ Live URL: <a href="deployed link">Deployment Link</a>
 ![Demo - Terminal](./Develop/images/screenshot1.png)
 ![Demo - Finished File](./Develop/images/screenshot2.png)
 
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-
 ## License
 
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -63,12 +53,11 @@ This project is licensed under the MIT license. For more information about this 
 
 
 ## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+Users can close the repo to run the application and/or make their own README generator. 
+Forks are allowed but pull requests must be approved before merging -- please shoot me an email with questions about forking or collaborating.
 
 ## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+No tests are needed at this time.
 
 ## Contact Information
   If you liked this project and want to see more, feel free to check out my 
