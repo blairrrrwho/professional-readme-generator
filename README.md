@@ -37,7 +37,11 @@ This application will utilize node.js to generate a personalized README for your
 ## Demo
 Link to Full Video: <a href="https://clipchamp.com/watch/bltCdMHOUOl">Demo</a>
 
+Terminal:
 ![Terminal Demo - GIF](./Develop/images/TerminalDemo.gif)
+
+Full:
+![Full Demo Video](./Develop/images/FullDemo.gif)
 
 ## Screenhots of App
 Terminal:
