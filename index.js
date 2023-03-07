@@ -10,15 +10,21 @@ const questions = [
     name: 'Welcome.',
     message: "Welcome to blair's README Generator! The following prompts will ask you for some basic information reguarding your project. This input will be used to generate a README for this project. If the prompt asks for information that is irrelevant for said project, leave it blank and that section will be filtered out. Would you like to continue?",
   },
+  
   {
     type: 'input',
     name: 'GitHub',
-    message: 'What is your GitHub username?',
+    message: 'Who is the author (please enter GitHub username)?',
+  },
+  {
+    type: 'input',
+    name: 'GitHubLink',
+    message: 'Please enter your GitHub profile link.',
   },
   {
     type: 'input',
     name: 'Email',
-    message: 'What is your email address?',
+    message: 'What email address can be used to contact you?',
   },
   {
     type: 'input',
@@ -28,7 +34,23 @@ const questions = [
   {
     type: 'input',
     name: 'Description',
-    message: 'Provide a brief description of your project?',
+    message: 'Provide a brief description of your project. What purpose does it serve?',
+  },
+  {
+    type: 'input',
+    name: 'Installation',
+    message: 'What are the installation instructions for your application?',
+  },
+  {
+    type: 'input',
+    name: 'Usage',
+    message: 'What does the user need to know in order to use this application? Describe the use of your application.',
+  },
+  {
+    type: 'checkbox',
+    name:'Technologies',
+    message: 'What technologies/languages does your project use?',
+    choices: ['JavaScript', 'HTML', 'CSS', 'Node.JS', 'Express.JS', 'Java', 'C', 'C#', 'C++', 'Python', 'Other']
   },
   {
     type: 'list',
@@ -44,23 +66,13 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'Installation',
-    message: 'What command should be ran to install dependencies?',
-  },
-  {
-    type: 'input',
-    name: 'Tests',
-    message: 'What command should be ran to run tests?',
-  },
-  {
-    type: 'input',
-    name: 'UserKnowledge',
-    message: 'What does the user need to know in order to use your repo?',
-  },
-  {
-    type: 'input',
-    name: 'Contributing',
+    name: 'Contribution',
     message: 'What does the user need to know about contributing to this project?',
+  },  
+  {
+    type: 'input',
+    name: 'ApplicationTests',
+    message: 'What command should be ran to run tests?',
   },
 ];
 

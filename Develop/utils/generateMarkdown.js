@@ -268,6 +268,7 @@ function generateMarkdown(data) {
   - [Description](#Description)
   - [Installation](#Installation)
   - [Usage](#Usage)
+  - [Technologies](#Technologies)
   - [License](#License)
   - [Contribute](#Contribute)
   - [Tests](#Tests)
@@ -277,7 +278,10 @@ function generateMarkdown(data) {
   ${data.Installation}
     
   ## Usage
-  ${data.UserKnowledge}
+  ${data.Usage}
+
+  ## Technologies
+  ${data.Technologies}
   
   ## License
   This project is licensed under the [${data.License}](${link}) license. 
@@ -291,14 +295,15 @@ function generateMarkdown(data) {
   <br>
   
   ## How to Contribute 
-  ${data.Contributing}
+  ${data.Contribution}
   
   ## Tests
-  ${data.Tests}
+  ${data.ApplicationTests}
   
   ## Questions
   If you liked this project and want to see more, feel free to check out my 
-  other repos [here](https://github.com/${data.GitHub}).\
+  other repos [here](${data.GitHubLink}).\
+  <br>
   For any questions or inquiries, you can reach me at ${data.Email} for further information.
 `;
 }

@@ -1,6 +1,20 @@
 TODO: 
-/filter out sections left blank during the question prompts -->
-/re-source files so that everything is in the develop folder except for the actual readme
+- filter out sections left blank during the question prompts -->
+- re-source files so that everything is in the develop folder except for the actual readme
+- questions to add: 
+    - github repo link for the project
+    - deployment link
+            type: 'input',
+            name: 'deploymentURL',
+            message: 'What is your application's deployment URL?',
+    - credits
+    - features
+    <!-- - technologies: 
+            type: 'checkbox',
+            name:'technologies',
+            message: 'What technologies/languages does your project use?',
+            choices: ['JavaScript', 'HTML', 'CSS', 'Node.JS', 'Express.JS', 'Java', 'C', 'C#', 'C++', 'Python', 'Other'] -->
+    - github username: change to enter github profile link
 
 
 
