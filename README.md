@@ -43,6 +43,8 @@ Live URL: <a href="deployed link">Deployment Link</a>
 ## Screenhots of App
 <!-- in the parentheses is just the relative path to the screenshot-->
 ![Demo - Terminal](./Develop/images/screenshot1.png)
+
+
 ![Demo - Finished File](./Develop/images/screenshot2.png)
 
 ## License
