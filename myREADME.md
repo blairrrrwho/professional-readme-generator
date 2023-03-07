@@ -1,9 +1,9 @@
 
   [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  # DEMO!
+  # a;lsdjf
     
   ## Description
-  This is a demo of the README generator.
+  sd;lfj
   
   ## Table of Contents
   - [Description](#Description)
@@ -15,10 +15,10 @@
   - [Questions](#Questions)
 
   ## Installation
-  None
+  
     
   ## Usage
-  Inquiries are accepted via email.
+  
   
   ## License
   This project is licensed under the [MIT](https://opensource.org/license/mit/) license. 
@@ -37,11 +37,11 @@
   <br>
   
   ## How to Contribute 
-  Pleaseeeeee ask first; clones are OK; forks are OK so long as you don't merge
+  
   
   ## Tests
-  None, but your project should have some.
+  
   
   ## Questions
   If you liked this project and want to see more, feel free to check out my 
-  other repos [here](https://github.com/blairrrrwho).  For any questions or inquiries, you can reach me at blair10324@gmail.com for further information.
+  other repos [here](https://github.com/blairwho).  For any questions or inquiries, you can reach me at blair for further information.

@@ -48,5 +48,4 @@ THEN I am taken to the corresponding section of the README
 
 
 TODO: 
-fix how the license info is showing up (def for MIT)
-fix link for github
+filter out sections left blank during the question prompts
