@@ -3,16 +3,16 @@
 function renderLicenseBadge(License) {
   switch (License.License) {
     case 'MIT':
-      return '[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)'
+      return '[![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
      
     case 'Apache':
-      return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+      return '[![License](https://img.shields.io/badge/License-Apache_2.0-blueviolet.svg)](https://opensource.org/licenses/Apache-2.0)'
 
     case 'IBM':
       return '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)'
 
     case 'Mozilla':
-      return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)' 
+      return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-orange.svg)](https://opensource.org/licenses/MPL-2.0)' 
 
     case 'Unlicensed':
       return ''
@@ -53,7 +53,7 @@ function renderLicenseSection(License) {
       THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.`
     
     case 'Apache':
-      return `1. Definitions.
+      return `Definitions.
       “License” shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
       
       “Licensor” shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
@@ -330,6 +330,8 @@ function generateMarkdown(data) {
   
   ## License
   This project is licensed under the [${data.License}](${link}) license. 
+  <br>
+  ${badge}
   <br>
   For more information about this license and what it entails visit: ${link}
   

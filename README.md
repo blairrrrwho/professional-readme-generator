@@ -9,46 +9,38 @@ This is a command-line application that accepts user input to quickly generate a
 It allows the user to quickly generate a README template for project with included necessary information personalized by that user.   
 
 
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-
-
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Deployment](#deployment)
-- [Technologies](#technologies)
+- [Demo](#demo)
 - [Credits](#credits)
 - [License](#license)
-- [Features](#features)
 - [Contribution](#how-to-contribute)
 - [Tests](#tests)
 - [Contact Information](#contact-information)
+- [Screenshots of App](#screenhots-of-app)
 
 ## Installation
 
-No installation required -- this is a web-based application
+To install this application, do the following:
+1. Clone the repo
+2. Open the repo and go to the repo directory in your terminal
+3. Run: node index.js (or: node index)
+Your README file should generate and be given the title: "myREADME.md"
 
 ## Usage (Instructions/How-To Use)
 
-Provide instructions and examples for use. Include screenshots as needed.
+This application will utilize node.js to generate a personalized README for your project, based off of your input. Users are to run node index from their terminal within the repo root folder. Once the command is ran and the input is selected, then the user must answer the proceeding questions. If all is well, the application will generated your very own README. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-## Deployment
+## Demo
 Live URL: <a href="deployed link">Deployment Link</a>
 
 <!-- in the parentheses is just the relative path to the screenshot-->
 ![alt text](assets/images/screenshot.png)
 
-
-## Technologies
 
 ## Credits
 
@@ -65,9 +57,6 @@ If you followed tutorials, include links to those here as well.
 
 This project is licensed under the MIT license. For more information about this license and what it entails visit: https://opensource.org/licenses/MIT
 
-## Features
-
-If your project has a lot of features, list them here.
 
 ## How to Contribute
 
@@ -82,3 +71,7 @@ Go the extra mile and write tests for your application. Then provide examples on
   other repos [here](https://github.com/blairrrrwho).
   <br>
   For any questions or inquiries, you can reach me at blair10324@gmail.com for further information.
+
+  ## Screenhots of App
+<!-- in the parentheses is just the relative path to the screenshot-->
+![alt text](assets/images/screenshot.png)
