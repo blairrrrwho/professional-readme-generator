@@ -1,12 +1,12 @@
 node_modules
-.DS_Store/
+.DS_Store
 .vscode
 vscode 
 
 node_modules
 package-lock.json
 .vscode
-.DS_Store
+.DS_Store/
 
 # Logs
 logs

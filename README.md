@@ -1,3 +1,5 @@
+[![License:MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 # Professional README Generator
 
 ## Description
@@ -20,6 +22,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Deployment](#deployment)
 - [Technologies](#technologies)
 - [Credits](#credits)
 - [License](#license)
@@ -37,6 +40,12 @@ No installation required -- this is a web-based application
 Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+
+## Deployment
+Live URL: <a href="deployed link">Deployment Link</a>
+
+<!-- in the parentheses is just the relative path to the screenshot-->
+![alt text](assets/images/screenshot.png)
 
 
 ## Technologies
@@ -69,5 +78,7 @@ If you created an application or package and would like other developers to cont
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
 ## Contact Information
-  [GitHub Profile](https://github.com/blairrrrwho)\
-  I can be reached at blair10324@gmail.com for any questions.
+  If you liked this project and want to see more, feel free to check out my 
+  other repos [here](https://github.com/blairrrrwho).
+  <br>
+  For any questions or inquiries, you can reach me at blair10324@gmail.com for further information.

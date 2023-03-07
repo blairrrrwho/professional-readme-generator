@@ -329,9 +329,13 @@ function generateMarkdown(data) {
   ${data.UserKnowledge}
   
   ## License
-  [${data.License}](${link})
+  This project is licensed under the [${data.License}](${link}) license. 
+  <br>
+  For more information about this license and what it entails visit: ${link}
+  
   <br>
   ${section}
+  <br>
   
   ## How to Contribute 
   ${data.Contributing}
