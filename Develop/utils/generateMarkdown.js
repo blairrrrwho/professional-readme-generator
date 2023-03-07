@@ -265,12 +265,11 @@ function generateMarkdown(data) {
   ${data.Description}
   
   ## Table of Contents
-  - [Description](#Description)
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [Technologies](#Technologies)
   - [License](#License)
-  - [Contribution](#How-to-contribute)
+  - [Contribution](#Contribution)
   - [Tests](#Tests)
   - [Questions](#Questions)
 
@@ -294,7 +293,7 @@ function generateMarkdown(data) {
   ${section}
   <br>
   
-  ## How to Contribute 
+  ## Contribution
   ${data.Contribution}
   
   ## Tests
