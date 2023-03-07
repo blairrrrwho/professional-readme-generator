@@ -1,4 +1,4 @@
-[![License:MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Professional README Generator
 
@@ -16,12 +16,12 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Installation](#installation)
 - [Usage](#usage)
 - [Demo](#demo)
+- [Screenshots of App](#screenhots-of-app)
 - [Credits](#credits)
 - [License](#license)
 - [Contribution](#how-to-contribute)
 - [Tests](#tests)
 - [Contact Information](#contact-information)
-- [Screenshots of App](#screenhots-of-app)
 
 ## Installation
 
@@ -41,6 +41,10 @@ Live URL: <a href="deployed link">Deployment Link</a>
 <!-- in the parentheses is just the relative path to the screenshot-->
 ![alt text](assets/images/screenshot.png)
 
+## Screenhots of App
+<!-- in the parentheses is just the relative path to the screenshot-->
+![Demo - Terminal](./Develop/images/screenshot1.png)
+![Demo - Finished File](./Develop/images/screenshot2.png)
 
 ## Credits
 
@@ -71,7 +75,3 @@ Go the extra mile and write tests for your application. Then provide examples on
   other repos [here](https://github.com/blairrrrwho).
   <br>
   For any questions or inquiries, you can reach me at blair10324@gmail.com for further information.
-
-  ## Screenhots of App
-<!-- in the parentheses is just the relative path to the screenshot-->
-![alt text](assets/images/screenshot.png)
