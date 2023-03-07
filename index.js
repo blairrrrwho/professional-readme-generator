@@ -33,12 +33,6 @@ const questions = [
         choices: [
             'MIT',
             'Apache',
-            'GPLv2',
-            'GPLv3',
-            'BSD 3-clause',
-            'BSD 2-clause',
-            'LGPLv3',
-            'AGPLv3',
             'Unlicensed',
         ]
       },
