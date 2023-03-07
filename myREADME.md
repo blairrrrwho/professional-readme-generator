@@ -1,8 +1,9 @@
-[![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+  [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   # Demo!
     
   ## Description
-  Describe your project and all purposes here.
+  Describe your project and any neat details here.
   
   ## Table of Contents
   - [Installation](#installation)
@@ -14,10 +15,10 @@
   - [Questions](#questions)
 
   ## Installation
-  List any installation instructions or requirements.
+  Include any necessary installation instructions for the user.
     
   ## Usage
-  Usage details for user. 
+  Describe to the user how the app works.
 
   ## Technologies
   JavaScript,Node.JS
@@ -39,10 +40,10 @@
   <br>
   
   ## Contribution
-  List contribution requirements and stipulations here.
+  List all requirements for contributing to your project.
   
   ## Tests
-  Lists all tests here.
+  List any test conditions here.
   
   ## Questions
   If you liked this project and want to see more, feel free to check out my 
