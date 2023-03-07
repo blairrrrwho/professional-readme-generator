@@ -32,7 +32,8 @@ const questions = [
         choices: [
             'MIT',
             'Apache',
-            'Other',
+            'IBM',
+            'Mozilla',
             'Unlicensed',
         ]
       },

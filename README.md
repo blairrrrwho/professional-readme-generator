@@ -69,3 +69,5 @@ If you created an application or package and would like other developers to cont
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
 ## Contact Information
+  [GitHub Profile](https://github.com/blairrrrwho)\
+  I can be reached at blair10324@gmail.com for any questions.
