@@ -3,6 +3,9 @@ TODO:
 - re-source files so that everything is in the develop folder except for the actual readme
 - questions to add: 
     - github repo link for the project
+            type: 'input'
+            name: 'GitHub',
+            message: 'What is the GitHub Repository link?',
     - deployment link
             type: 'input',
             name: 'deploymentURL',

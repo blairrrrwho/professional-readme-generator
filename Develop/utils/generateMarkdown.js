@@ -265,13 +265,13 @@ function generateMarkdown(data) {
   ${data.Description}
   
   ## Table of Contents
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [Technologies](#Technologies)
-  - [License](#License)
-  - [Contribution](#Contribution)
-  - [Tests](#Tests)
-  - [Questions](#Questions)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Technologies](#technologies)
+  - [License](#license)
+  - [Contribution](#contribution)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Installation
   ${data.Installation}
