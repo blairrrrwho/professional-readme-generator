@@ -1,9 +1,9 @@
 
   [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  # DEMO
+  # as;lkjf
     
   ## Description
-  Lots
+  jda;lsdjfa
   
   ## Table of Contents
   - [Description](#Description)
@@ -16,13 +16,13 @@
   - [Questions](#Questions)
 
   ## Installation
-  too many
+  a;lsdkjfka;sdlk
     
   ## Usage
-  asd;lfj
+  asldkjfa;dskl
 
   ## Technologies
-  JavaScript
+  
   
   ## License
   This project is licensed under the [MIT](https://opensource.org/license/mit/) license. 
@@ -41,11 +41,12 @@
   <br>
   
   ## How to Contribute 
-  dsf
+  sdlfkj
   
   ## Tests
-  sdf
+  da;lksjf
   
   ## Questions
   If you liked this project and want to see more, feel free to check out my 
-  other repos [here](https://github.com/blairrrrwho)  For any questions or inquiries, you can reach me at blairrrrwho@gmail.com for further information.
+  other repos [here](https://github.com/blairrrrwho).  <br>
+  For any questions or inquiries, you can reach me at blair@gmail.com for further information.

@@ -270,7 +270,7 @@ function generateMarkdown(data) {
   - [Usage](#Usage)
   - [Technologies](#Technologies)
   - [License](#License)
-  - [Contribute](#Contribute)
+  - [Contribution](#How-to-contribute)
   - [Tests](#Tests)
   - [Questions](#Questions)
 
