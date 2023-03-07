@@ -39,12 +39,12 @@ const questions = [
   {
     type: 'input',
     name: 'Installation',
-    message: 'What are the installation instructions for your application?',
+    message: 'What are the installation instructions for your application? Any dependencies?',
   },
   {
     type: 'input',
     name: 'Usage',
-    message: 'What does the user need to know in order to use this application? Describe the use of your application.',
+    message: 'Describe the use of your application. How does your app work, what does it do, what are the instructions for use?',
   },
   {
     type: 'checkbox',
@@ -72,7 +72,7 @@ const questions = [
   {
     type: 'input',
     name: 'ApplicationTests',
-    message: 'What command should be ran to run tests?',
+    message: 'Does this project have any test conditions? If yes, please list them here.',
   },
 ];
 
