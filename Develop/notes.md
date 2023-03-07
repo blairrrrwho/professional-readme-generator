@@ -48,4 +48,4 @@ THEN I am taken to the corresponding section of the README
 
 
 TODO: 
-fix link showing up for license (it's just like the actual link text)
+fix how the license info is showing up (def for MIT)
