@@ -9,12 +9,7 @@ TODO:
             message: 'What is your application's deployment URL?',
     - credits
     - features
-    <!-- - technologies: 
-            type: 'checkbox',
-            name:'technologies',
-            message: 'What technologies/languages does your project use?',
-            choices: ['JavaScript', 'HTML', 'CSS', 'Node.JS', 'Express.JS', 'Java', 'C', 'C#', 'C++', 'Python', 'Other'] -->
-    - github username: change to enter github profile link
+    - github username: change to enter github profile link; take out username question
 
 
 
