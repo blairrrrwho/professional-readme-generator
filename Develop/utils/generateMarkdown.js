@@ -16,6 +16,7 @@ function renderLicenseBadge(License) {
 
     case 'Unlicensed':
       return ''
+
     default: ''
   }
 }
@@ -309,42 +310,41 @@ function generateMarkdown(data) {
   return `
   ${badge}
   # ${data.Project}
-  # ${renderLicenseBadge(data.License)}
-
-  ## Table of Contents
-    - [Description](#Description)
-    - [Installation](#Installation)
-    - [Usage](#Usage)
-    - ${renderLicenseLink(data.License)}
-    - [Contribute](#Contribute)
-    - [Tests](#Tests)
-    - [Questions](#Questions)
     
   ## Description
-    ${data.Description}
+  ${data.Description}
   
+  ## Table of Contents
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contribute](#Contribute)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
+
   ## Installation
-    ${data.Installation}
+  ${data.Installation}
     
   ## Usage
-    ${data.UserKnowledge}
+  ${data.UserKnowledge}
   
   ## License
-    [${data.License}](${link})
-    <br>
-    ${section}
+  [${data.License}](${link})
+  <br>
+  ${section}
   
   ## How to Contribute 
-    ${data.Contributing}
+  ${data.Contributing}
   
   ## Tests
-    ${data.Tests}
+  ${data.Tests}
   
   ## Questions
-    If you liked this project feel free to check out my other projects at ${data.GitHub}
-    If you have any questions feel free to email me at  ${data.Email}
-    [GitHub Profile](github.com/${data.github}/)\
-    I can be reached at ${data.email} for any questions.
+  If you liked this project feel free to check out my other projects at ${data.GitHub}
+  If you have any questions feel free to email me at  ${data.Email}
+  [GitHub Profile](github.com/${data.github}/)\
+  I can be reached at ${data.email} for any questions.
 `;
 }
 
