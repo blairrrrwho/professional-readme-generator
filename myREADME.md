@@ -3,7 +3,7 @@
   # Demo!
     
   ## Description
-  Describe your project and any neat details here.
+  Describe your project here.
   
   ## Table of Contents
   - [Installation](#installation)
@@ -18,7 +18,7 @@
   Include any necessary installation instructions for the user.
     
   ## Usage
-  Describe to the user how the app works.
+  Tell the user what they need to know in order to use your app successfully
 
   ## Technologies
   JavaScript,Node.JS
@@ -40,10 +40,10 @@
   <br>
   
   ## Contribution
-  List all requirements for contributing to your project.
+  List all contribution requirements and stipulations here.
   
   ## Tests
-  List any test conditions here.
+  List all (if any) test conditions.
   
   ## Questions
   If you liked this project and want to see more, feel free to check out my 

@@ -37,8 +37,7 @@ This application will utilize node.js to generate a personalized README for your
 ## Demo
 Live URL: <a href="deployed link">Deployment Link</a>
 
-<!-- in the parentheses is just the relative path to the screenshot-->
-![alt text](assets/images/screenshot.png)
+![Terminal Demo - GIF](./Develop/images/TerminalDemo.gif)
 
 ## Screenhots of App
 <!-- in the parentheses is just the relative path to the screenshot-->
