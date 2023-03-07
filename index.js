@@ -61,15 +61,25 @@ const questions = [
 
 // TODO: Create a function to initialize app
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(fileName, data);
+    return fs.writeFileSync(fileName, data), (err) =>{
+      if(err){
+        console.log('Error Found Cound Not Save');
+      } else {
+        console.log('Success!!');
+      }
+    };
 }
 
 const init = (questions) => {
-    inquirer.prompt(questions) .then((response) => {
+    inquirer.prompt(questions)
+    .then((response) => {
         console.log(response);
         const mdPageContent = generateMarkdown(response);
         console.log(mdPageContent);
         writeToFile ('myREADME.md', mdPageContent)
+    })
+    .catch((error) => {
+      console.log(error);
     })
 };
 
