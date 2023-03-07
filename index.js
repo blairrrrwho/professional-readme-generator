@@ -2,7 +2,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./Develop/utils/generateMarkdown');
-// const { log } = require('console');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -33,6 +32,7 @@ const questions = [
         choices: [
             'MIT',
             'Apache',
+            'Other',
             'Unlicensed',
         ]
       },
