@@ -343,14 +343,13 @@ function generateMarkdown(data) {
     
   ${checkDescription(data)}
   
-
   ## Table of Contents
   ${data.Installation ? '- [Installation](#installation)' : ''}
   ${data.Usage ? '- [Usage](#usage)' : ''}
   ${data.Technologies ? '- [Technologies](#technologies)' : ''}
   ${data.License ? '- [License](#license)' : ''}
   ${data.Contribution ? '- [Contribution](#contribution)' : ''}
-  ${data.Tests ? '- [Tests](#tests)' : ''}
+  ${data.ApplicationTests ? '- [Tests](#tests)' : ''}
   ${data.GitHubLink || data.Email ? '- [Questions](#questions)' : ''}
 
   ${checkInstallation(data)}
