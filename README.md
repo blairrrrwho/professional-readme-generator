@@ -35,7 +35,7 @@ Your README file should generate and be given the title: "myREADME.md"
 This application will utilize node.js to generate a personalized README for your project, based off of your input. Users are to run node index from their terminal within the repo root folder. Once the command is ran and the input is selected, then the user must answer the proceeding questions. If all is well, the application will generated your very own README for specific repos. 
 
 ## Demo
-Link to Full Video: <a href="https://clipchamp.com/watch/bltCdMHOUOl">Demo</a>
+Link to Full Video: <a href="https://vimeo.com/806083721">Demo</a>
 
 Terminal:
 ![Terminal Demo - GIF](./Develop/images/TerminalDemo.gif)
