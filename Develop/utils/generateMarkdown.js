@@ -299,26 +299,6 @@ ${data.ApplicationTests}`
    }
 }
 
-const checkTechnologies = (data) => {
-  if(data.Technologies === "N/A") {
-    return "";
-  }
-   else {
-    return `## Technologies
-${data.Technologies}`
-   }
-}
-
-// const checkLicense = (data) => {
-//   if(data.License === "Unlicensed") {
-//     return "";
-//   }
-//    else {
-//     return `## License
-// ${data.License}`
-//    }
-// }
-
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -348,7 +328,8 @@ function generateMarkdown(data) {
     
   ${checkUsage(data)}
 
-  ${checkTechnologies(data)}
+  ## Technologies
+  ${data.Technologies}
   
   ## License
   [${data.License}](${link})

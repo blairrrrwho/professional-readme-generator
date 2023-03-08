@@ -1,5 +1,29 @@
 TODO: 
 - filter out sections left blank during the question prompts -->
+        done for all except license, technologies and questions
+// const checkTechnologies = (data) => {
+//   if(data.Technologies === "N/A") {
+//     return "";
+//   }
+//    else {
+//     return `## Technologies
+// ${data.Technologies}`
+//    }
+// }
+
+// ## Technologies
+// ${data.Technologies}
+
+// const checkLicense = (data) => {
+//   if(data.License === "Unlicensed") {
+//     return "";
+//   }
+//    else {
+//     return `## License
+// ${data.License}`
+//    }
+// }
+
 - re-source files so that everything is in the develop folder except for the actual readme
 - questions to add: 
     - github repo link for the project
