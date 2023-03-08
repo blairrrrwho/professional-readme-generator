@@ -309,7 +309,7 @@ ${data.ApplicationTests}`
   }
 }
 
-// const quest = `how to If you liked this project and want to see more, feel free to check out my other repos [here](${data.GitHubLink})`;
+// Checks if user inputted email and/or github link; displays or doesn't display in toc
 const checkQuestions = (data) => {
   if (data.GitHubLink === "" && data.Email === "") {
     return "";
@@ -326,8 +326,6 @@ For any questions or inquiries, you can reach me at ${data.Email} for further in
   }
 }
 
-
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   console.log(`Project = ${data.Project}`)
@@ -335,7 +333,6 @@ function generateMarkdown(data) {
   const badge = renderLicenseBadge(data);
   const link = renderLicenseLink(data);
   const section = renderLicenseSection(data);
-
 
   return `
   ${badge}
