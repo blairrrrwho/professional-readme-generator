@@ -1,9 +1,9 @@
 
   [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  # Demo!
+  # boom
     
   ## Description
-  Describe your project here.
+  demodemo
   
   ## Table of Contents
   - [Installation](#installation)
@@ -14,14 +14,13 @@
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Installation
-  Include any necessary installation instructions for the user.
+  
     
   ## Usage
-  Tell the user what they need to know in order to use your app successfully
+  l;asdkjf
 
   ## Technologies
-  JavaScript,Node.JS
+  JavaScript,HTML,CSS,Node.JS,Express.JS,Java,C,C#,C++,Python,Other
   
   ## License
   This project is licensed under the [MIT](https://opensource.org/license/mit/) license. 
@@ -40,12 +39,12 @@
   <br>
   
   ## Contribution
-  List all contribution requirements and stipulations here.
+  
   
   ## Tests
-  List all (if any) test conditions.
+  
   
   ## Questions
   If you liked this project and want to see more, feel free to check out my 
-  other repos [here](https://github.com/blairrrrwho).  <br>
-  For any questions or inquiries, you can reach me at blair10324@gmail.com for further information.
+  other repos [here](gmail.com).  <br>
+  For any questions or inquiries, you can reach me at gmail.com for further information.

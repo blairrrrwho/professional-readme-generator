@@ -248,6 +248,15 @@ function renderLicenseSection(License) {
 }
 
 
+const checkValue = (data) => {
+  if(data.Installation === "") {
+    return "";
+  }
+   else {
+    return `## Installation
+${data.Installation}`
+   }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -273,8 +282,7 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Installation
-  ${data.Installation}
+  ${checkValue(data)}
     
   ## Usage
   ${data.Usage}
