@@ -38,7 +38,7 @@ function renderLicenseLink(License) {
       return 'https://opensource.org/license/mpl-2-0/' 
 
     case 'Unlicensed':
-      return ''
+      return 'https://opensource.org/license/'
     default: ''
   }
 }
@@ -247,8 +247,9 @@ function renderLicenseSection(License) {
   }
 }
 
-
-const checkValue = (data) => {
+// This makes sure a section won't get added if the user input is left blank"
+// Doing it for most of the sections but maybe there is a way to condense? 
+const checkInstallation = (data) => {
   if(data.Installation === "") {
     return "";
   }
@@ -258,6 +259,67 @@ ${data.Installation}`
    }
 }
 
+const checkDescription = (data) => {
+  if(data.Description === "") {
+    return "";
+  }
+   else {
+    return `## Description
+${data.Description}`
+   }
+}
+
+const checkUsage = (data) => {
+  if(data.Usage === "") {
+    return "";
+  }
+   else {
+    return `## Usage
+${data.Usage}`
+   }
+}
+
+const checkContribution = (data) => {
+  if(data.Contribution === "") {
+    return "";
+  }
+   else {
+    return `## Contribution
+${data.Contribution}`
+   }
+}
+
+const checkTests = (data) => {
+  if(data.ApplicationTests === "") {
+    return "";
+  }
+   else {
+    return `## Tests
+${data.ApplicationTests}`
+   }
+}
+
+const checkTechnologies = (data) => {
+  if(data.Technologies === "N/A") {
+    return "";
+  }
+   else {
+    return `## Technologies
+${data.Technologies}`
+   }
+}
+
+// const checkLicense = (data) => {
+//   if(data.License === "Unlicensed") {
+//     return "";
+//   }
+//    else {
+//     return `## License
+// ${data.License}`
+//    }
+// }
+
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   console.log(`Project = ${data.Project}`)
@@ -266,12 +328,12 @@ function generateMarkdown(data) {
   const link = renderLicenseLink(data);
   const section = renderLicenseSection(data);
 
+
   return `
   ${badge}
   # ${data.Project}
     
-  ## Description
-  ${data.Description}
+  ${checkDescription(data)}
   
   ## Table of Contents
   - [Installation](#installation)
@@ -282,34 +344,25 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ${checkValue(data)}
+  ${checkInstallation(data)}
     
-  ## Usage
-  ${data.Usage}
+  ${checkUsage(data)}
 
-  ## Technologies
-  ${data.Technologies}
+  ${checkTechnologies(data)}
   
   ## License
-  This project is licensed under the [${data.License}](${link}) license. 
-  <br>
-  ${badge}
-  <br>
-  For more information about this license and what it entails visit: ${link}
-  
+  [${data.License}](${link})
   <br>
   ${section}
   <br>
   
-  ## Contribution
-  ${data.Contribution}
+  ${checkContribution(data)}
   
-  ## Tests
-  ${data.ApplicationTests}
+  ${checkTests(data)}
   
   ## Questions
   If you liked this project and want to see more, feel free to check out my 
-  other repos [here](${data.GitHubLink}).\
+  other repos [here](${data.GitHubLink}).
   <br>
   For any questions or inquiries, you can reach me at ${data.Email} for further information.
 `;

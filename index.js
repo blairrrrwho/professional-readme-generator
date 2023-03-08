@@ -50,7 +50,7 @@ const questions = [
     type: 'checkbox',
     name:'Technologies',
     message: 'What technologies/languages does your project use?',
-    choices: ['JavaScript', 'HTML', 'CSS', 'Node.JS', 'Express.JS', 'Java', 'C', 'C#', 'C++', 'Python', 'Other']
+    choices: ['JavaScript', 'HTML', 'CSS', 'Node.JS', 'Express.JS', 'Java', 'C', 'C#', 'C++', 'Python', 'Other', 'N/A']
   },
   {
     type: 'list',
