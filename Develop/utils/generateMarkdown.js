@@ -4,7 +4,7 @@ function renderLicenseBadge(License) {
   switch (License.License) {
     case 'MIT':
       return '[![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
-     
+
     case 'Apache':
       return '[![License](https://img.shields.io/badge/License-Apache_2.0-blueviolet.svg)](https://opensource.org/licenses/Apache-2.0)'
 
@@ -12,7 +12,7 @@ function renderLicenseBadge(License) {
       return '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/license/ibmpl-php/)'
 
     case 'Mozilla':
-      return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-orange.svg)](https://opensource.org/licenses/MPL-2.0)' 
+      return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-orange.svg)](https://opensource.org/licenses/MPL-2.0)'
 
     case 'Unlicensed':
       return ''
@@ -27,7 +27,7 @@ function renderLicenseLink(License) {
   switch (License.License) {
     case 'MIT':
       return 'https://opensource.org/license/mit/'
-    
+
     case 'Apache':
       return 'https://opensource.org/license/apache-2-0/'
 
@@ -35,7 +35,7 @@ function renderLicenseLink(License) {
       return 'https://opensource.org/license/ibmpl-php/'
 
     case 'Mozilla':
-      return 'https://opensource.org/license/mpl-2-0/' 
+      return 'https://opensource.org/license/mpl-2-0/'
 
     case 'Unlicensed':
       return 'https://opensource.org/license/'
@@ -247,57 +247,85 @@ function renderLicenseSection(License) {
   }
 }
 
+// Table of Contents list for reference for myself
+// ## Table of Contents
+// - [Installation](#installation)
+// - [Usage](#usage)
+// - [Technologies](#technologies)
+// - [License](#license)
+// - [Contribution](#contribution)
+// - [Tests](#tests)
+// - [Questions](#questions) 
+
 // This makes sure a section won't get added if the user input is left blank"
 // Doing it for most of the sections but maybe there is a way to condense? 
 const checkInstallation = (data) => {
-  if(data.Installation === "") {
+  if (data.Installation === "") {
     return "";
   }
-   else {
+  else {
     return `## Installation
 ${data.Installation}`
-   }
+  }
 }
 
 const checkDescription = (data) => {
-  if(data.Description === "") {
+  if (data.Description === "") {
     return "";
   }
-   else {
+  else {
     return `## Description
 ${data.Description}`
-   }
+  }
 }
 
 const checkUsage = (data) => {
-  if(data.Usage === "") {
+  if (data.Usage === "") {
     return "";
   }
-   else {
+  else {
     return `## Usage
 ${data.Usage}`
-   }
+  }
 }
 
 const checkContribution = (data) => {
-  if(data.Contribution === "") {
+  if (data.Contribution === "") {
     return "";
   }
-   else {
+  else {
     return `## Contribution
 ${data.Contribution}`
-   }
+  }
 }
 
 const checkTests = (data) => {
-  if(data.ApplicationTests === "") {
+  if (data.ApplicationTests === "") {
     return "";
   }
-   else {
+  else {
     return `## Tests
 ${data.ApplicationTests}`
-   }
+  }
 }
+
+// const quest = `how to If you liked this project and want to see more, feel free to check out my other repos [here](${data.GitHubLink})`;
+const checkQuestions = (data) => {
+  if (data.GitHubLink === "" && data.Email === "") {
+    return "";
+  } else if (data.GitHubLink === "" && data.Email !== "") {
+    return `## Questions
+For any questions or inquiries, you can reach me at ${data.Email} for further information.`;
+  } else if (data.Email === "" && data.GitHubLink !== "") {
+    return `## Questions
+If you liked this project and want to see more, feel free to check out my other repos [here](${data.GitHubLink}).`;
+  } else {
+    return `## Questions
+If you liked this project and want to see more, feel free to check out my other repos [here](${data.GitHubLink}).  
+For any questions or inquiries, you can reach me at ${data.Email} for further information.`
+  }
+}
+
 
 
 // TODO: Create a function to generate markdown for README
@@ -315,14 +343,15 @@ function generateMarkdown(data) {
     
   ${checkDescription(data)}
   
+
   ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Technologies](#technologies)
-  - [License](#license)
-  - [Contribution](#contribution)
-  - [Tests](#tests)
-  - [Questions](#questions)
+  ${data.Installation ? '- [Installation](#installation)' : ''}
+  ${data.Usage ? '- [Usage](#usage)' : ''}
+  ${data.Technologies ? '- [Technologies](#technologies)' : ''}
+  ${data.License ? '- [License](#license)' : ''}
+  ${data.Contribution ? '- [Contribution](#contribution)' : ''}
+  ${data.Tests ? '- [Tests](#tests)' : ''}
+  ${data.GitHubLink || data.Email ? '- [Questions](#questions)' : ''}
 
   ${checkInstallation(data)}
     
@@ -341,11 +370,7 @@ function generateMarkdown(data) {
   
   ${checkTests(data)}
   
-  ## Questions
-  If you liked this project and want to see more, feel free to check out my 
-  other repos [here](${data.GitHubLink}).
-  <br>
-  For any questions or inquiries, you can reach me at ${data.Email} for further information.
+  ${checkQuestions(data)}
 `;
 }
 

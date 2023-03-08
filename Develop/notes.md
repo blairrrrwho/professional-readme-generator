@@ -1,28 +1,52 @@
 TODO: 
 - filter out sections left blank during the question prompts -->
         done for all except license, technologies and questions
-// const checkTechnologies = (data) => {
-//   if(data.Technologies === "N/A") {
-//     return "";
-//   }
-//    else {
-//     return `## Technologies
-// ${data.Technologies}`
-//    }
-// }
+<!-- 
+const checkTechnologies = (data) => {
+   if(data.Technologies === "N/A") {
+     return "";
+   }
+    else {
+     return `## Technologies
+ ${data.Technologies}`
+    }
+ } 
+ -->
 
-// ## Technologies
-// ${data.Technologies}
+<!-- 
+## Technologies
+${data.Technologies} 
+-->
 
-// const checkLicense = (data) => {
-//   if(data.License === "Unlicensed") {
-//     return "";
-//   }
-//    else {
-//     return `## License
-// ${data.License}`
-//    }
-// }
+<!-- 
+const checkLicense = (data) => {
+   if(data.License === "Unlicensed") {
+     return "";
+   }
+    else {
+     return `## License
+ ${data.License}`
+    }
+ } 
+ -->
+
+^ old code / new code just in case it's needed 
+
+  <!-- 
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Technologies](#technologies)
+  - [License](#license)
+  - [Contribution](#contribution)
+  - [Tests](#tests)
+  - [Questions](#questions) -->
+  ^ toc list 
+
+- got the table of contents to not display a section if it is left blank OTHER THAN
+        - license, technologies
+        - the questions section will be left out in the toc, but still displays itself with empty data if left blank
+                _ ^ fix that too
 
 - re-source files so that everything is in the develop folder except for the actual readme
 - questions to add: 
@@ -61,7 +85,12 @@ inquirer website notes:
 
 
 
-
+  ## Questions
+  If you liked this project and want to see more, feel free to check out my 
+  other repos [here](${data.GitHubLink}).
+  <br>
+  For any questions or inquiries, you can reach me at ${data.Email} for further information.
+`;
 
 
 User Story: 

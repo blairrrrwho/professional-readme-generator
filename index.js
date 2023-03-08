@@ -10,7 +10,6 @@ const questions = [
     name: 'Welcome.',
     message: "Welcome to blair's README Generator! The following prompts will ask you for some basic information reguarding your project. This input will be used to generate a README for this project. If the prompt asks for information that is irrelevant for said project, leave it blank and that section will be filtered out. Would you like to continue?",
   },
-  
   {
     type: 'input',
     name: 'GitHub',
@@ -75,7 +74,6 @@ const questions = [
     message: 'Does this project have any test conditions? If yes, please list them here.',
   },
 ];
-
 
 // TODO: Create a function to initialize app
 function writeToFile(fileName, data) {
