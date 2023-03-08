@@ -3,23 +3,22 @@
   # Demo!
     
   ## Description
-Describe in detail your project and anything about it you should include.
+Describe your project here.
   
-
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [Technologies](#technologies)
   - [License](#license)
   - [Contribution](#contribution)
-  
+  - [Tests](#tests)
   - [Questions](#questions)
 
   ## Installation
-Include any installation instructions here.
+List any installation instructions.
     
   ## Usage
-Explain to the user how to work the application.
+Explain how to use your application to the user.
 
   ## Technologies
   JavaScript,Node.JS
@@ -36,7 +35,7 @@ Explain to the user how to work the application.
   <br>
   
   ## Contribution
-List any necessary requirements for contributions.
+List any requirements for others to contribute.
   
   ## Tests
 List any test conditions.
