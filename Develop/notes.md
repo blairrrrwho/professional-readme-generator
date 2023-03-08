@@ -43,10 +43,9 @@ const checkLicense = (data) => {
   - [Questions](#questions) -->
   ^ toc list 
 
-- got the table of contents to not display a section if it is left blank OTHER THAN
+- got the table of contents to not display a section if it is left blank OTHER THAN these (but have none options)
         - license, technologies
-        - the questions section will be left out in the toc, but still displays itself with empty data if left blank
-                _ ^ fix that too
+
 
 - re-source files so that everything is in the develop folder except for the actual readme
 - questions to add: 
@@ -61,7 +60,6 @@ const checkLicense = (data) => {
     - credits
     - features
     - github username: change to enter github profile link; take out username question
-
 
 
 
@@ -85,12 +83,6 @@ inquirer website notes:
 
 
 
-  ## Questions
-  If you liked this project and want to see more, feel free to check out my 
-  other repos [here](${data.GitHubLink}).
-  <br>
-  For any questions or inquiries, you can reach me at ${data.Email} for further information.
-`;
 
 
 User Story: 
