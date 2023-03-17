@@ -1,6 +1,8 @@
 TODO: 
 - filter out sections left blank during the question prompts -->
         done for all except license, technologies and questions
+- add demployment section / demo section 
+
 <!-- 
 const checkTechnologies = (data) => {
    if(data.Technologies === "N/A") {

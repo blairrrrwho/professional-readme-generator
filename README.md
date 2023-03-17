@@ -9,7 +9,7 @@ This is a command-line application that accepts user input to quickly generate a
 It allows the user to quickly generate a README template for project with included necessary information personalized by that user.   
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
@@ -20,7 +20,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [License](#license)
 - [Contribution](#how-to-contribute)
 - [Tests](#tests)
-- [Contact Information](#contact-information)
+- [Contact / Questions](#contact--questions)
 
 ## Installation
 
@@ -51,6 +51,7 @@ Terminal:
 myREADME file generated:
 ![Demo - Finished File](./Develop/images/screenshot2.png)
 
+
 ## License
 
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -65,7 +66,7 @@ Forks are allowed but pull requests must be approved before merging -- please sh
 ## Tests
 No tests are needed at this time.
 
-## Contact Information
+## Contact / Questions
   If you liked this project and want to see more, feel free to check out my 
   other repos [here](https://github.com/blairrrrwho).
   <br>
